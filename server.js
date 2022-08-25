@@ -24,7 +24,7 @@ port= 3000;
 // The stuff that should be inside this function is all below.
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
-const input;
+var input;
 fs.readFile('./public/index.html', 'utf8', (err, data) =>{
  if (err) {
     console.error(err);
